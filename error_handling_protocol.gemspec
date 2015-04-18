@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Nicolas Papagna Maldonado']
   spec.email         = ['nicolas.papagna@10Pines.com']
   spec.summary       = %q{Provides common error messages in the protocol of class Object. For example, to report the error that a subclass should have implemented one of the superclass's messages.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/10Pines/error_handling_protocol'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
