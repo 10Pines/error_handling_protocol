@@ -1,5 +1,6 @@
 require 'error_handling_protocol/version'
 
-module ErrorHandlingProtocol
-  # Your code goes here...
-end
+require 'error_handling_protocol/subclass_responsibility_error'
+
+require 'error_handling_protocol/core_ext/object'
+require 'error_handling_protocol/core_ext/class'
