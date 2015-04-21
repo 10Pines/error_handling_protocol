@@ -8,7 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ErrorHandlingProtocol::VERSION
   spec.authors       = ['Nicolas Papagna Maldonado']
   spec.email         = ['nicolas.papagna@10Pines.com']
-  spec.summary       = %q{Provides common error messages in the protocol of class Object. For example, to report the error that a subclass should have implemented one of the superclass's messages.}
+  spec.summary       = %q{Provides common error messages in the protocol of class Object.}
+  spec.description   = %q{Provides common error messages in the protocol of class Object. For example, to report the error that a subclass should have implemented one of the superclass's messages.}
   spec.homepage      = 'https://github.com/10Pines/error_handling_protocol'
   spec.license       = 'MIT'
 
@@ -18,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.5'
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '~> 10.4'
   spec.add_development_dependency 'rspec', '~> 3.2'
 end
