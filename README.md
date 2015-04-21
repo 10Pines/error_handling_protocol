@@ -61,7 +61,7 @@ Sending the ```:m1``` message to an instance of ```B``` yields:
 B.new.m1
 ```
 ```ruby
-ErrorHandlingProtocol::SubclassResponsibilityError: B had the responsibility to implement :m1 class method.
+ErrorHandlingProtocol::SubclassResponsibilityError: B had the responsibility to implement :m1 instance method.
 ```
 
 #### Example: communicating subclasses are responsible to implement a class method
